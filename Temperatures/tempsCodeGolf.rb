@@ -1,0 +1,1 @@
+gets.to_i==0?(p 0):(p gets.split().map(&:to_i).min_by{|x|[x.abs,-x]})
